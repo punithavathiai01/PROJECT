@@ -1,0 +1,5 @@
+ int subtractionprogram1(int a,int b)
+ {
+     int f=a-b;
+     printf("THE SUBTRACTED  OF C IS:%d\n",f);
+}

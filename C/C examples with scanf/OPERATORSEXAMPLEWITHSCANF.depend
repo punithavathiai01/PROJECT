@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1701936009 source:c:\users\bright-sys10\desktop\ai batch\project\operatorsexamplewithscanf\main.c
+	<stdio.h>
+	<stdlib.h>
+
