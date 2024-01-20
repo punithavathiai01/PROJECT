@@ -1,0 +1,15 @@
+use ai_punitha;
+show tables;
+select * from ai_technology;
+select * from fc_user_reg;
+select * from fc_user_login;
+select * from fc_user_order;
+insert into fc_user_login values(102,'beasty','575757','373737','12');
+create table fc_user_order(order_ID int not null primary key, product_Name varchar(100) not null,
+product_price double not null,product_Qnty int not null,Delivery_Address varchar(255) not null,
+User_ID int not null,Log_ID int not null, foreign key(User_ID) references fc_User_Reg(User_ID));
+insert into fc_user_order values(201,'ipad','150000',1,'srirangam',11,101);
+insert into fc_user_order values(202,'laptop','125000',1,'Annanagar',12,102);
+insert into fc_user_reg values(13,'bhavani','ramachandran','2002-10-13',9876753564,'bhava','123456');
+insert into fc_user_reg values(14,'srinithi','sundar','2001-12-19',9765753564,'sri','123457');
+select * from fc_user_reg join fc_user_login on fc_user_reg. user_ID= fc_user_login. user_ID;
