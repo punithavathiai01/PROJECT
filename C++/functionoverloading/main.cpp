@@ -1,5 +1,5 @@
 
-//FUNCTION OVERLOADING:
+//OVERLOADING:
 
 #include <iostream>
 using namespace std;
