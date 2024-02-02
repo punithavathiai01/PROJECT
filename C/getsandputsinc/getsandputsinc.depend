@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1706851995 source:c:\users\punithavathiai01\desktop\project\c\getsandputsinc\main.c
+	<stdio.h>
+	<stdlib.h>
+
